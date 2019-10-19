@@ -4,7 +4,7 @@ import "github.com/01-edu/z01"
 
 func Raid1a(x, y int) {
 	for a := 1; a <= y; a++ {
-		if x > 0 {
+		if y > 0 && x > 0 {
 			for b := 1; b <= x; b++ {
 				if (a == 1 && b == 1) || (a == 1 && b == x) || (a == y && b == 1) || (a == y && b == x) {
 					z01.PrintRune('o')
