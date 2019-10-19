@@ -3,11 +3,11 @@ package piscine
 import "github.com/01-edu/z01"
 
 func Raid1a(x, y int) {
-	for a := 1; a <= y; a++ {
+	for a := 1; a <= x; a++ {
 		if x < 0 {
 			z01.PrintRune('\n')
 		} else {
-			for b := 1; b <= x; b++ {
+			for b := 1; b <= y; b++ {
 				if (a == 1 && b == 1) || (a == 1 && b == x) || (a == y && b == 1) || (a == y && b == x) {
 					z01.PrintRune('o')
 				} else if b == 1 && (a != y || a != 1) {
