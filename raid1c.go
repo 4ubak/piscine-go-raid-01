@@ -22,7 +22,7 @@ func Raid1c(x, y int) {
 					z01.PrintRune('B')
 				} else {
 					z01.PrintRune(' ')
-				}	
+				}
 			}
 			z01.PrintRune(10)
 		}
