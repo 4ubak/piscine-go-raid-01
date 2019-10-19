@@ -8,8 +8,8 @@ func Raid1a(x, y int) {
 			z01.PrintRune('\n')
 		}
 	} else {
-		for a := 1; a <= x; a++ {
-			for b := 1; b <= y; b++ {
+		for a := 1; a <= y; a++ {
+			for b := 1; b <= x; b++ {
 				if (a == 1 && b == 1) || (a == 1 && b == y) || (a == x && b == 1) || (a == x && b == y) {
 					z01.PrintRune('o')
 				} else if b == 1 && (a != x || a != 1) {
