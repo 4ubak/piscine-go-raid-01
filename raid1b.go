@@ -32,5 +32,4 @@ func Raid1a(x, y int) {
 				fmt.Println()
 			}
 		}
-	}
 }
