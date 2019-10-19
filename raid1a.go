@@ -3,10 +3,8 @@ package piscine
 import "github.com/01-edu/z01"
 
 func Raid1a(x, y int) {
-	if x < 0 {
-		for b := 1; b <= y; b++ {
-			z01.PrintRune('\n')
-		}
+	if x <= 0  || y <= 0{
+		
 	} else {
 		for a := 1; a <= y; a++ {
 			for b := 1; b <= x; b++ {
